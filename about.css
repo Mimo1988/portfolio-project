@@ -1,0 +1,31 @@
+main {
+    display: flexbox;
+    background-image: url('./background1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+img {
+    height: 250px;
+    width: 200px;
+    justify-content: flex-end;
+}
+
+ p {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:turquoise;
+    font-weight: 200;
+}
+
+strong {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1000;
+    color: darkturquoise;
+}
+
+h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: turquoise;
+}

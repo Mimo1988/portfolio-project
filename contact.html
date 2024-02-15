@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Contact me</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" initial-scale="1.0">
+        <link href="./style.css" rel="stylesheet">
+        <link href="./contact.css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="flex-container">
+            <span>Mohammed Edlby</span>
+            <nav>
+                <ul>
+                  <li><a href="about.html">About me</a></li>  
+                <li><a href="projects.html">Projects</a></li>
+            </nav>
+        </header>
+        <main>
+            <h2>I will be more than pleasure if you contact with me on the following:</h2>
+            <p><strong>E-MAIL: </strong>Edlbymouhammad@gmail.com</p>
+            <br>
+            <p><strong>Whatsapp: </strong>+963944057451</p>
+            <br>
+            <p><strong>linkedin: </strong>Mhd Khier Aledlby/Alwan</p>
+            <br>
+            <p>or you can leave me a comment here and i will read it and i will be more than happy to answer</p>
+            <br>
+            <form action="./contact.html" method="POST">
+                <p>Please enter your name here:</p>
+                <br>
+                <input type="text" name="name" required>
+                <br>
+                <p>Please enter your E-mail here:</p>
+                <br>
+                <input type="text" name="E-mail" required>
+                <br>
+                <p>Please enter your phone number here</p>
+                <br>
+                <input type="number" id="number" name="number" pattern="[0-9]" required>
+                <br>
+                <p> and you can leave a comment here</p>
+                <br>
+                <label for="blog">new comment post:</label>
+                <br>
+                <textarea id="blog" name="blog" rows="5" cols="30">
+                </textarea>
+                <br>
+                <input type="submit" value="send" id="submit">
+            </form>
+        </main>
+        <footer>
+            <span>&copy M.Edlby2024 </span>
+        </footer>
+    </body>
+</html>
