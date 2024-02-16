@@ -29,3 +29,32 @@ h1 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: turquoise;
 }
+
+.button {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    color: #3498db;
+  }
+  
+  /* Glowing animation */
+  a.button ::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #91caef;
+    opacity: 0;
+    transform: scaleX(0);
+    transform-origin: 100% 50%;
+    transition: transform 0.5s, opacity 0.5s;
+  }
+  
+  .button :hover::before {
+    transform: scaleX(1);
+    opacity: 1;
+    color: white;
+    z-index: 0;
+  }

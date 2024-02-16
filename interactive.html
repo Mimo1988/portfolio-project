@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>interactive</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width" initial-scale="1.0">
+      <link href="./style.css" rel="stylesheet">
+      <link href="./interactive.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <span>Mohammed Edlby</span>
+            <nav>
+                <ul>
+                    <li><a href="./about.html">About me</a></li>
+                    <li><a href="./projects.html">My projects</a></li>
+                    <li><a href="./contact.html">Contact me</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="question-container">
+            <h1 id="firstMainItem">Do You Like My Portfolio</h1>
+            <div class="button">
+                <button id="yesButton" onclick="showMessage()">Yes</button>
+                <button id="noButton" onmouseover="moveRandomly()" onmouseout="resetPosition()">NO</button>
+            </div>
+        </main>
+        
+            <footer class="container">
+                <span>&copy M.edlby 2024</span>
+                <a href="./contact.html">Back to contact page</a>
+            </footer>
+       <script src="./script.js"></script>
+    </body>
+</html>

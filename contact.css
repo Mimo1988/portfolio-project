@@ -3,6 +3,8 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding:0 px;
+    margin: 0 px;
 }
 
 h2 {
@@ -22,4 +24,28 @@ p{
     color: white;
     font-weight: lighter;
 }
+label {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    background-image: linear-gradient(to right, #4CAF50, #2196F3);
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Hover effect */
+  .button:hover {
+    background-image: linear-gradient(to right, #2196F3, #4CAF50);
+    color: #fff;
+  }
 
