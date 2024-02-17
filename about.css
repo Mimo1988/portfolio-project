@@ -1,6 +1,6 @@
 main {
     display: flexbox;
-    background-image: url('./background1.jpg');
+    background-image: url('./background.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23,11 +23,13 @@ strong {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 1000;
     color: darkturquoise;
+    text-decoration: underline;
 }
 
 h1 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: turquoise;
+    text-decoration: double;
 }
 
 .button {
@@ -58,3 +60,31 @@ h1 {
     color: white;
     z-index: 0;
   }
+
+  @media only screen and (max-width: 600px){
+    img {
+        width: 100px;
+        height:150px;
+    }
+    h1 {
+        font-weight: 500;
+        font-size: medium;
+    }
+    p {
+        font-size: xx-small;
+
+    }
+    strong {
+        font-size: x-small;
+        text-decoration: underline;
+    }
+
+    .button {
+        font-size: xx-small;
+    }
+    body {
+        min-height:inherit;
+        max-width: inherit;
+
+    }
+}

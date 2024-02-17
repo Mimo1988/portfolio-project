@@ -48,3 +48,18 @@ footer a {
     padding: 15px;
     padding-right: 10px;
 }
+
+@media only screen and (max-width: 600px) {
+    nav li {
+        font-size: xx-small;
+        display: inline;
+        text-align: center;
+        padding-right: 0px;
+        justify-content: space-between;
+
+    }
+    header span {
+        font-size: small;
+    }
+    
+}

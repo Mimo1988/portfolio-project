@@ -1,6 +1,6 @@
 main {
     height: 250px;
-    background-image:url('./backGround4.jpg');
+    background-image:url('./background.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -60,4 +60,27 @@ main {
 h1 {
     color:turquoise;
 }
-  
+  @media only screen and (max-width: 600px) {
+    body{
+        height: 500px;
+        width: 100%;
+    }
+    
+        
+    
+   .question-container{
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    font-size: small;
+    text-wrap: nowrap;
+    justify-content: space-around;
+   }
+    .button {
+        padding: 0px;
+        display: inline;
+        justify-content: center;
+        max-width: inherit;
+        max-height: inherit;
+    }
+  }
