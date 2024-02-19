@@ -9,24 +9,24 @@ main {
 
 h2 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
+    color: #E50FF4;
 }
 
 
 
 strong {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
+    color: darkblue;
     font-weight: bolder;
 }
 p{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
+    color: darkblue;
     font-weight: lighter;
 }
 label {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:white
+    color:darkblue;
 }
 
 .button {

@@ -9,30 +9,30 @@ main {
 
 p  {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:wheat;
+    color:#E50FF4;
     font-weight: 200;
 }
 
 strong {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 1000;
-    color: rgb(109, 110, 110);
+    color: #E50FF4;
 }
 
 h2 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: wheat;
+    color: #E50FF4;
 }
 
  #javaScript li{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: wheat;
+    color: darkblue;
     font-weight: lighter;
 }
 
  #html li {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: wheat;
+    color: darkblue;
     font-weight: lighter;
 }
 

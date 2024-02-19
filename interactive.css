@@ -58,7 +58,7 @@ main {
     font-size: 18px;
   }
 h1 {
-    color:turquoise;
+    color:#E50FF4
 }
   @media only screen and (max-width: 600px) {
     body{
